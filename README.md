@@ -71,5 +71,11 @@ read name
 ## Control statements
 if else
 
+## LOOPS
+1. FOR:  for () do ... ... done
+2.    
+3. WHILE
+4. SWITCH: case $numb in 1) 2) 3) *)... ... esac
+5. FUNCTIONS
 
 
