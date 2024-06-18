@@ -40,5 +40,10 @@ echo ${#string_value}
 ## the default variable that is going to take if we dont specifiy anything in the read command?
 the default varible the shell going to take is *REPLY*
 
+## How to search for the filename exists in the particular dir using shell script?
+in condition specify -f option. if [ -f /opt/$filename ]
 
- 
+
+***EXERSIES:***
+ ![image](https://github.com/bhargavsp/ShellScripting/assets/45779321/108eff22-ea7f-4783-8a0c-9d6a915aec0c)
+
