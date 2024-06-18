@@ -27,9 +27,11 @@ EX: *PWD* is a system defined variables, *pwd* it is a command
 
 ## command line arguments
 If we are passing any values while running the shell script those values are called command lines arguments. To use the CL arguments inside the script we use $0, $1, $2
-$# gives number of arguments from the Coomand Line
-$* --> will print all the arguments as one string
-$@ --> prints each arguments as one single string
+| command| usage |
+| :---: | :---: |
+| $# | gives number of arguments from the Coomand Line
+| $*  | will print all the arguments as one string
+| $@ | prints each arguments as one single string
 
 ## what is the standard error code for the command not found ?
 127 is the error code output for the standard command not found 
@@ -40,5 +42,34 @@ output: 1stargument1
 
 ## conditions
 ![image](https://github.com/bhargavsp/ShellScripting/assets/45779321/8acc1333-d326-44d9-8f8a-9d9ef303a240)
+
+## arthematic operations
+1. expr
+2. "-"
+3. "+"
+4. "*"
+5. "/"
+6. "%"
+   for multiplication we need to use the escape character \* to apply the multiplication
+to display the expr output in the string echo scentence we need to use the backtick 
+ex: echo "the ddtion of 3 + 2 is `expr 3 + 2`"
+
+## read is used to wait and read the input from the user
+read name
+
+## input and output redirection symbols
+| command| usage |
+| :---: | :---: |
+| > | redirect std o/p
+| >> |append the std o/p
+| < | std i/p
+
+## file descriptors
+![image](https://github.com/bhargavsp/ShellScripting/assets/45779321/58149c2f-2857-408f-bc4a-253df5e9e517)
+
+
+## Control statements
+if else
+
 
 
