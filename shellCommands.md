@@ -18,4 +18,6 @@
 | echo ${string_value:20} | to ignore and display the first 20 characters in a string | |
 | echo ${string_value:20:14} | to ignore first 20 characters and display the next coming 14 characters in a string | |
 | echo ${string_value:} -8 | to display last 8 characters in a string | |
-
+| read -a devopstools | to use the array | echo " the 3rd elecment is ${devoptools[3]}"| 
+| read -p "devopstools" username | to display the text next to the read and also collect the value for the varuable | | 
+| read -s "devopstools" username | to not display typed and secure the password| | 
