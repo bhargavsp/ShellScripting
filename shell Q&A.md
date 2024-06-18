@@ -29,5 +29,5 @@ echo "bhargav"
 
 ## when we give the set -x in the script and as well as when we execute the script in sh -X first.sh what happens?
 the execution starts from the first line as we specified the -x while executing the program and stops the execution in debug mode at the end of the set +x
-Ex:![image](https://github.com/bhargavsp/ShellScripting/assets/45779321/5dad295a-ad30-4791-8f96-3c02bbf6c632)
+Ex: ![image](https://github.com/bhargavsp/ShellScripting/assets/45779321/5dad295a-ad30-4791-8f96-3c02bbf6c632)
 
