@@ -37,3 +37,8 @@ echo $strng_value or echo ${string_value}
 ## display the string length?
 echo ${#string_value}
 
+## the default variable that is going to take if we dont specifiy anything in the read command?
+the default varible the shell going to take is *REPLY*
+
+
+ 
